@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../fuzzy-search-tools/fuzzy-search-tools.iml" filepath="$PROJECT_DIR$/../fuzzy-search-tools/fuzzy-search-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicanalysis.iml" filepath="$PROJECT_DIR$/musicanalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rhymeanalyzer/rhymeanalyzer.iml" filepath="$PROJECT_DIR$/../rhymeanalyzer/rhymeanalyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sentistrength/sentistrength.iml" filepath="$PROJECT_DIR$/../sentistrength/sentistrength.iml" />
+    </modules>
+  </component>
+</project>
