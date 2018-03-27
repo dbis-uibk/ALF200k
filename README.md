@@ -1,3 +1,7 @@
+# Data
+
+The dataset can be found in the `data` folder. Thereby, each relevant collection of the MongoDB has been exported to a separate JSON file. For legal reasons, the lyrics itself have been removed and only the extracted features are exported.
+
 # Code
 
 The Java code in this repository contains only the most important classes out from a bigger project on music playlist analyses. Therefore, it is not runnable as is, but nevertheless provides insight into the construction of our dataset. The main reason is that the original code relies on a database (MongoDB) containing all lyrics, which we can not publish for legal reasons. Nevertheless, if one wants, for example, compute features of own lyrics, only minor changes have to be made, i.e., exchanging the data source from MnogoDB to whatever is needed (e.g., only a String containing the lyrics).
