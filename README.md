@@ -11,7 +11,7 @@ We are working on a standalone lyrics feature extractor, which provides a simple
 
 ### Lyrics Features
 
-The probably most interesting part is the computation of the various lyrics features, including lexical, syntactical, semantic and other features. The main class for this is `FeatureComputer' in the `musicanalysis.model.music.lyric.feature` package. As said, this class requires a MongoDB connection, which is not published at the moment. Nevertheless, have a look at the `compute(Lyric l, double duration)` method, which computes all features for the given `Lyric`. So, in order to compute features, you would simply have to create a `Lyric` object from your existing lyrics file.
+The probably most interesting part is the computation of the various lyrics features, including lexical, syntactical, semantic and other features. The main class for this is `FeatureComputer` in the `musicanalysis.model.music.lyric.feature` package. As said, this class requires a MongoDB connection, which is not published at the moment. Nevertheless, have a look at the `compute(Lyric l, double duration)` method, which computes all features for the given `Lyric`. So, in order to compute features, you would simply have to create a `Lyric` object from your existing lyrics file.
 
 The concrete feature extractors (lexical, linguistic, semantic, syntactic) can be found within the corresponding packages.
 
