@@ -24,3 +24,20 @@ For this dataset, we crawled 10 different web pages. The code for that can be fo
 ### Sanitizing Lyrics
 
 As crawled lyrics have to be cleaned in most of the cases, we processed them by using the `LyricSanitizer` class in the `musicanalysis.model.music.lyric` package. Here you can find dozens of regexes to clean lyrics which aim to extract the real lyric and dismissing all non-relevant information like chords or other reading instructions (e.g., "repeat 2x").
+
+# Citation
+If you make use of our dataset, please cite our paper [ALF-200k: Towards Extensive Multimodal Analyses of Music Tracks and Playlists](https://link.springer.com/chapter/10.1007%2F978-3-319-76941-7_48) published at ECIR 2018: 
+```
+@inproceedings{DBLP:conf/ecir/zangerle17,
+title = {ALF-200k: Towards Extensive Multimodal Analyses of Music Tracks and Playlists},
+author = {Eva Zangerle and Michael Tschuggnall and Stefan Wurzinger and G\"{u}nther Specht},
+doi = {10.1007/978-3-319-76941-7_48},
+isbn = {978-3-319-76941-7},
+year = {2018},
+date = {2018-01-01},
+booktitle = {Advances in Information Retrieval - 39th European Conference on IR Research, ECIR 2018},
+pages = {584--590},
+publisher = {Springer},
+address = {Cham}
+}
+
